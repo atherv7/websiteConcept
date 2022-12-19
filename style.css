@@ -1,0 +1,86 @@
+body {
+    background-color: #FFFDD0;
+    overflow: hidden; 
+}
+
+#nav {
+    width: 100vw;
+    height: 10vh; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    z-index: 3;
+}
+
+.bttn {
+    position: absolute;  
+    top: 2.5vh; 
+    padding: 20px; 
+}
+
+#b1 {
+    left: 45vw; 
+}
+
+#b2 {
+    left: 55vw; 
+}
+
+
+#about {
+    width: 100vw; 
+    height: 100vh; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-color: none; 
+    z-index: 1;
+}
+
+#experience {
+    width: 100vw;
+    height: 100vh;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-color: #a25600;
+    display: none; 
+}
+
+#svg1 {
+    background-color: none;
+    width: 50vw;
+}
+
+#svg2 {
+    width: 50vw; 
+    position: absolute; 
+    top: 15vh;
+    left: 2vw; 
+}
+
+.res {
+    position: absolute; 
+    width: 50vw; 
+    height: 100vh; 
+    background-color: none;
+    left: 50vw; 
+    top: 0; 
+}
+
+.res h1 {
+    top: 25vh;
+    left: 12%;  
+    position: absolute; 
+    background-color: none;
+    width: fit-content; 
+    height: fit-content; 
+    text-align: center;
+    font-size: 100px;
+}
+
+.res button {
+    top: 50vh; 
+    left: 47%; 
+    position: absolute; 
+}
